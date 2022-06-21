@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olá</title>
 </head>
+
 <body>
     <h1>Olá, esse é o meu primeiro HTML</h1>
+    <form action="pagina2.php" method="POST">
+        <div id="campo_nome">
+            <label for="nome">Nome*</label>
+            <input type="text" name="nome" size="20" maxlength="20">
+        </div>
+        <div id="campo_data_nascimento">
+            <label for="data_nascimento">Data Nascimento*</label>
+            <input type="date" name="data_nascimento">
+        </div>
+        <div id="campo_idade">
+            <label for="idade">Idade*</label>
+            <input type="text" name="idade" size="3" maxlength="3">
+        </div>
+        <div id="botao_enviar">
+            <input type="submit" name="enviar" value="Enviar">
+        </div>
+    </form>
 </body>
+
 </html>
+
